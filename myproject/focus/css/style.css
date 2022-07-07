@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a,
+button {
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(95, 83, 83);
+
+}
+
+.logo {
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    margin-right: auto;
+
+
+}
+
+.nav_link {
+    list-style: none;
+
+}
+
+.nav_link li {
+
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.nav_link li a {
+    transition: all 0.3s ease 0s;
+    color: aliceblue;
+}
+
+.nav_link li a:hover {
+    color: blue;
+}
+
+.btn {
+    padding: 9px 25px;
+    background-color: #BE5A36;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color: rgb(104, 1, 1);
+    color: aliceblue;
+
+}
+
+.body1 {
+    height: 450px;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heading1 {
+    color: #191BF3;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.p1 {
+    color: #52352D;
+    text-align: left;
+    padding-left: 100px;
+
+}
+
+.btn2 {
+    background-color: #300ab8;
+    color: aliceblue;
+    font-size: 14px;
+    font-family: Arial;
+    height: 30px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.btn2:hover {
+    background-color: rgb(66, 68, 190);
+    font-size: 16px;
+}
+
+.p2 {
+    color: #52352D;
+    text-align: left;
+    padding-left: 100px;
+    display: inline-block;
+
+}
+
+.heading2 {
+    padding-bottom: 50px;
+    color: #191BF3;
+    padding-left: 100px;
+}
+
+.image1{
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    
+}
